@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in a Dapp's ownership transfer function. The bug causes the ownership transfer to fail silently if the new owner address is identical to the current owner.  The solution addresses this by explicitly checking if a transfer is needed before proceeding.
